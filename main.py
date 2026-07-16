@@ -33,7 +33,6 @@ def text_to_morse(text):
     for char in text:
         if char in MORSE_CODE:
             morse_chars.append(MORSE_CODE[char])
-        # silently skip characters not in the dictionary (like punctuation)
     return ' '.join(morse_chars)
 
 def morse_to_text(morse):
