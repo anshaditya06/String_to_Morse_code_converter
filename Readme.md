@@ -1,4 +1,4 @@
-# Text to Morse Code Converter
+# Morse Converter
 
 A simple Python project that converts text to Morse code and Morse code back to text.
 
